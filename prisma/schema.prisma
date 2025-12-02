@@ -1,0 +1,170 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native","debian-openssl-1.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id        Int          @id @default(autoincrement())
+  email     String       @unique
+  password  String
+  role      String
+  details   UserDetails?
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  @@map("users")
+}
+
+model VerificationCode {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  code      String
+  expiresAt DateTime
+}
+
+model UserDetails {
+  id            Int                   @id @default(autoincrement())
+  userId        Int                   @unique
+  user          User                  @relation(fields: [userId], references: [id])
+  name          String
+  email         String                @unique
+  designation   String
+  role          String
+  contactNo     String                @unique
+  profileImage  String
+  verified      Boolean               @default(false)
+  status      Boolean               @default(false)
+  createdAt     DateTime              @default(now())
+  updatedAt     DateTime              @updatedAt
+
+  createdOrders Order[]               @relation("CreatedOrders")
+  powers        Power[]               @relation("UserDetailsPowers")
+  warehouseLogs WarehouseProductLog[]
+
+  @@map("userDetails")
+}
+
+
+model Customer {
+  id           Int      @id @default(autoincrement())
+  name         String
+  email        String  
+  contactNo    String
+  profileImage String
+  orders       Order[]  @relation("CustomerOrders")
+  incharges    Order[]  @relation("InchargeOrders")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@unique([contactNo, email])
+  @@map("customers")
+}
+
+model Product {
+  id             Int                   @id @default(autoincrement())
+  name           String
+  brand          String
+  purchaseCost   Float
+  unit           String
+  availableQty   Int                   @default(0)
+  totalPurchased Int                   @default(0)
+  remainderQty   Int                   @default(0)
+  sell           Int                   @default(0)
+  warehouses     WarehouseProduct[]
+  orderProducts  OrderProduct[]
+  logs           WarehouseProductLog[]
+  createdAt      DateTime              @default(now())
+  updatedAt      DateTime              @updatedAt
+
+  @@unique([name, brand])
+  @@map("products")
+}
+
+model Warehouse {
+  id        Int                   @id @default(autoincrement())
+  name      String                @unique
+  products  WarehouseProduct[]
+  logs      WarehouseProductLog[]
+  orders    Order[]
+  createdAt DateTime              @default(now())
+  updatedAt DateTime              @updatedAt
+
+  @@map("warehouses")
+}
+
+model WarehouseProduct {
+  id          Int       @id @default(autoincrement())
+  warehouse   Warehouse @relation(fields: [warehouseId], references: [id])
+  warehouseId Int
+  product     Product   @relation(fields: [productId], references: [id])
+  productId   Int
+  quantity    Float
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@unique([warehouseId, productId])
+  @@map("warehouseProducts")
+}
+
+model WarehouseProductLog {
+  id          Int         @id @default(autoincrement())
+  warehouse   Warehouse   @relation(fields: [warehouseId], references: [id])
+  warehouseId Int
+  product     Product     @relation(fields: [productId], references: [id])
+  productId   Int
+  quantity    Float
+  user        UserDetails @relation(fields: [userId], references: [id])
+  userId      Int
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@map("warehouseProductLogs")
+}
+
+model Order {
+  id          Int            @id @default(autoincrement())
+  invoiceId   String
+  warehouseId Int
+  customerId  Int
+  inchargeId  Int
+  createdById Int
+
+  products    OrderProduct[]
+  warehouse   Warehouse      @relation(fields: [warehouseId], references: [id])
+  customer    Customer       @relation("CustomerOrders", fields: [customerId], references: [id])
+  incharge    Customer       @relation("InchargeOrders", fields: [inchargeId], references: [id])
+  createdBy   UserDetails    @relation("CreatedOrders", fields: [createdById], references: [id])
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  @@map("orders")
+}
+
+model OrderProduct {
+  id        Int      @id @default(autoincrement())
+  order     Order    @relation(fields: [orderId], references: [id])
+  orderId   Int
+  product   Product  @relation(fields: [productId], references: [id])
+  productId Int
+  price         Decimal       @default(0) @db.Decimal(10, 2)
+  texPercentage Decimal       @default(0) @db.Decimal(5, 2)
+  quantity  Float
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("orderProducts")
+}
+
+model Power {
+  id    Int           @id @default(autoincrement())
+  name  String        @unique
+  users UserDetails[] @relation("UserDetailsPowers")
+
+  @@map("powers")
+}

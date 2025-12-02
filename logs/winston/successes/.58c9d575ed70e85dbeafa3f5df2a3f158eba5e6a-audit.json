@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/mnt/d/NEC Group/alientBD/alientBD v4/aliendBd for cpanel/logs/winston/successes/.58c9d575ed70e85dbeafa3f5df2a3f158eba5e6a-audit.json",
+    "files": [
+        {
+            "date": 1724836081071,
+            "name": "/mnt/d/NEC Group/alientBD/alientBD v4/aliendBd for cpanel/logs/winston/successes/phu-2024-28-08-15-success.log",
+            "hash": "a54ca5ef70cd7d3be1564b93ea80742565f4ad6199aa4417369aef3e88f59b01"
+        }
+    ],
+    "hashType": "sha256"
+}

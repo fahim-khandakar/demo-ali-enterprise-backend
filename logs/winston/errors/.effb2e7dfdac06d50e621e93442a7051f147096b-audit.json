@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\.effb2e7dfdac06d50e621e93442a7051f147096b-audit.json",
+    "files": [
+        {
+            "date": 1764579131919,
+            "name": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\phu-2025-01-12-14-error.log",
+            "hash": "43204e1b93392c3d545d76229e4f900c1f6a3bb1e697b904b124a2956ee0f511"
+        },
+        {
+            "date": 1764580480969,
+            "name": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\phu-2025-01-12-15-error.log",
+            "hash": "e67f2a4e9c547d85121e65ec1e2a63332c6c6932981ff02a7bb606b5cb13ce38"
+        },
+        {
+            "date": 1764584842699,
+            "name": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\phu-2025-01-12-16-error.log",
+            "hash": "e99069bc62f85476e787d489cf1dad19ba1399ee00a69128e97706a8f62cca87"
+        },
+        {
+            "date": 1764655263945,
+            "name": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\phu-2025-02-12-12-error.log",
+            "hash": "a32611ee8b8422bc307a32b9c32dfe571fa32194b237d1dce902ac0f55e19da8"
+        },
+        {
+            "date": 1764667306046,
+            "name": "D:\\Projects\\Ali Enterprise\\Demo for client (Added feature is billing)\\Backend\\logs\\winston\\errors\\phu-2025-02-12-15-error.log",
+            "hash": "3d9bcf67e4c55a6aacbfbc9c61cf7e2579b247e6d9e276382c1be45fef13483d"
+        }
+    ],
+    "hashType": "sha256"
+}

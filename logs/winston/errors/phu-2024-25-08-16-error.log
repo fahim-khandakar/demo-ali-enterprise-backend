@@ -1,0 +1,5 @@
+Sun Aug 25 2024 16:29:17 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.customer.delete()` invocation:
+
+
+Foreign key constraint failed on the field: `orders_customerId_fkey (index)`

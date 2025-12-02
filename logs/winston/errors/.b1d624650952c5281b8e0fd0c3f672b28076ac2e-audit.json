@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\NEC Group\\alientBD\\alientBD v3 Updating\\alientBD prisma backend\\logs\\winston\\errors\\.b1d624650952c5281b8e0fd0c3f672b28076ac2e-audit.json",
+    "files": [
+        {
+            "date": 1719125710564,
+            "name": "D:\\NEC Group\\alientBD\\alientBD v3 Updating\\alientBD prisma backend\\logs\\winston\\errors\\phu-2024-23-06-12-error.log",
+            "hash": "96217bba0f23f6806ba1da42a3b4cfbe67f7f5f5d300d45e6155373c1c8e6a22"
+        },
+        {
+            "date": 1719126379158,
+            "name": "D:\\NEC Group\\alientBD\\alientBD v3 Updating\\alientBD prisma backend\\logs\\winston\\errors\\phu-2024-23-06-13-error.log",
+            "hash": "9b753c17ef8775925ca502181ff9a7fce62d570ebe618238f084c828ff61b3fe"
+        }
+    ],
+    "hashType": "sha256"
+}

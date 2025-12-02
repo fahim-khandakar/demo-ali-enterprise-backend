@@ -1,0 +1,81 @@
+Sun Aug 25 2024 12:33:18 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.userDetails.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  },
+  include: {
+    powers: {
+      select: {
+        id: true
+      }
+    }
+  }
+}
+
+Argument `id` is missing.
+Sun Aug 25 2024 12:33:36 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.userDetails.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  },
+  include: {
+    powers: {
+      select: {
+        id: true
+      }
+    }
+  }
+}
+
+Argument `id` is missing.
+Sun Aug 25 2024 12:33:44 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.userDetails.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  },
+  include: {
+    powers: {
+      select: {
+        id: true
+      }
+    }
+  }
+}
+
+Argument `id` is missing.
+Sun Aug 25 2024 12:34:2 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.userDetails.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  },
+  include: {
+    powers: {
+      select: {
+        id: true
+      }
+    }
+  }
+}
+
+Argument `id` is missing.
+Sun Aug 25 2024 12:49:37 } [PH] error: 🐱‍🏍 globalErrorHandler ~~ 
+Invalid `prisma.userDetails.findUnique()` invocation:
+
+{
+  where: {
++   id: Int
+  },
+  include: {
+    user: true
+  }
+}
+
+Argument `id` is missing.

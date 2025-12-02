@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\.93bf94c7d87152e67bbfefbaea3933a36bcfac0e-audit.json",
+    "files": [
+        {
+            "date": 1760258927899,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-12-10-14-error.log",
+            "hash": "b34377b89765e2bc30322262e64475ed8e0e323349d128bcdadbabdd80812807"
+        },
+        {
+            "date": 1760259656118,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-12-10-15-error.log",
+            "hash": "201330cc8ba57eb14a7f6531b47634726607aeb17360253860ab2a252279ad32"
+        },
+        {
+            "date": 1760329478566,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-13-10-10-error.log",
+            "hash": "4a80144a694ccb7644bd5caa8e8200d3dc9ea08b43a5492166de5a78f96cffa2"
+        },
+        {
+            "date": 1760352656902,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-13-10-16-error.log",
+            "hash": "a760482da23d1781b6cdf5ddfaecd4cf911ae473d58d7bbe027ab85a3e02244f"
+        },
+        {
+            "date": 1760353298870,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-13-10-17-error.log",
+            "hash": "650005b9a830e5bef819e5659a3f2d2f7d627f1b2637a672bcef9e2f901e811b"
+        },
+        {
+            "date": 1760416344120,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-14-10-10-error.log",
+            "hash": "bc16cd4682ba2202f9e5032f43cb7bfb53db246cc6ed15d9aefe8f1868e4e97a"
+        },
+        {
+            "date": 1760508686849,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-15-10-12-error.log",
+            "hash": "95b85ac00b704d4d348cae5dd26a08e53b62cca3f2310cddaaea7b26987d728b"
+        },
+        {
+            "date": 1760518167063,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-15-10-14-error.log",
+            "hash": "6276c7b8f30c9cf44035122e573d548190e68032a7039b81a4780b8b783c50fe"
+        },
+        {
+            "date": 1760588449681,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-10-error.log",
+            "hash": "19fdd3450ceacc95e8d0f66f130f06e27f4fc5b33a8d81c0a34e86c71b363037"
+        },
+        {
+            "date": 1760592725391,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-11-error.log",
+            "hash": "ca39f8e6e30580033cab1efd2de30ae0273db698d395eef3226519885d911305"
+        },
+        {
+            "date": 1760597074406,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-12-error.log",
+            "hash": "75486ba96e939b530609584beddf12e60f4f4219007f02b8a352f85e8454b666"
+        },
+        {
+            "date": 1760598491203,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-13-error.log",
+            "hash": "ebfda35c0f9b1239228d3388be5500ad7ed8a43c72438e38bcba391a90abbb52"
+        },
+        {
+            "date": 1760605164483,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-14-error.log",
+            "hash": "26324348249be05717706f86d7302986c16d7da8784d54f1f1a3f05c479f3be2"
+        },
+        {
+            "date": 1760605200420,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-15-error.log",
+            "hash": "a7327a64c955e5d0eddfd6e89bcbe5154174539a66c50029b401b0c06b162a83"
+        },
+        {
+            "date": 1760608912216,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-16-10-16-error.log",
+            "hash": "854feef10bc2bfbec5e30751e458ccfa91e5c75c51dcf0626c7d7fc7210ebd0c"
+        },
+        {
+            "date": 1760762333913,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-18-10-10-error.log",
+            "hash": "2c6dac31a9e60a8667c2922634bc2636dd94b3e9622e710505e77d9f6de16300"
+        },
+        {
+            "date": 1760764051930,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-18-10-11-error.log",
+            "hash": "af6cb6aa11b22537f905b1faa4c27074c6c464b090dc4a7d2a1ec9abf55e8472"
+        },
+        {
+            "date": 1760847696312,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-19-10-10-error.log",
+            "hash": "83f82f8a21e3ee9bd9519544395f63abc03c06896c07bd668fbe059380561f5b"
+        },
+        {
+            "date": 1760850169086,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-19-10-11-error.log",
+            "hash": "614471514126af9e9d3abb7c4f489df5ae54b268c93623fbc17c01aec66779d6"
+        },
+        {
+            "date": 1760865008025,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\errors\\phu-2025-19-10-15-error.log",
+            "hash": "e0dadb01164fb1324bef17d38ed0b50b448e1e988b30edbba6f66f04fc49bb30"
+        }
+    ],
+    "hashType": "sha256"
+}

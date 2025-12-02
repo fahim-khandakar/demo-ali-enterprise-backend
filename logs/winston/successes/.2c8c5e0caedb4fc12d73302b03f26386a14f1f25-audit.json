@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\.2c8c5e0caedb4fc12d73302b03f26386a14f1f25-audit.json",
+    "files": [
+        {
+            "date": 1760258927833,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-12-10-14-success.log",
+            "hash": "5a196c691f8a51ef1b2b0c703adc1f75496d2f07b49157982c900437346dc232"
+        },
+        {
+            "date": 1760259656115,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-12-10-15-success.log",
+            "hash": "949f91ba6e315d0ba1d088e42535d4b338baa0eece8a3893fa9b3eaeaf4e80c3"
+        },
+        {
+            "date": 1760329478534,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-13-10-10-success.log",
+            "hash": "785cd4ddde5a0cfa84df2a0b3896f808bdeae8bcbe6245099d5c6f4639ced71f"
+        },
+        {
+            "date": 1760352656893,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-13-10-16-success.log",
+            "hash": "f90574381192fa4e614f7f656e9886832ca1530e0a342965718efb5a7844eda6"
+        },
+        {
+            "date": 1760353298865,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-13-10-17-success.log",
+            "hash": "7c99e5ce523ae8c2af9b7be565acb4dad72d379b8935614f6d79e01045474968"
+        },
+        {
+            "date": 1760416344062,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-14-10-10-success.log",
+            "hash": "377773b9f2181e1106542835d7443a047ec208ac3d0cb8467fcc2b97881b94af"
+        },
+        {
+            "date": 1760508686842,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-15-10-12-success.log",
+            "hash": "a4c35ac8b2e917079d6d25eb23e91b588a8768ef9d2445ef69f1a623e2a4ad65"
+        },
+        {
+            "date": 1760518167059,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-15-10-14-success.log",
+            "hash": "b0fbb3ed438a2a37c248a2e454f8f7668e0f3c1ed659e1f2446ab7cbc74e548b"
+        },
+        {
+            "date": 1760588449664,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-10-success.log",
+            "hash": "76b27470e06cc622b2a5bf3f4aa12f6a05c7fa9e95c37a5f36bca79a10567103"
+        },
+        {
+            "date": 1760592725386,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-11-success.log",
+            "hash": "9d490b3d6865102824d593d5ad19cb6b1b15e98c01cfd14f7f73990fcdc14c1b"
+        },
+        {
+            "date": 1760597074400,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-12-success.log",
+            "hash": "cf8dccf90a98a2b7114024959f50d0027dc35bbd2fdcac66046bec7a18b25e8b"
+        },
+        {
+            "date": 1760598491196,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-13-success.log",
+            "hash": "212ca13d9d337979030576e606e75cc2368fb81807b57ea489c140ce23142e62"
+        },
+        {
+            "date": 1760605164479,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-14-success.log",
+            "hash": "fcc8457e7252163339107c1d233104f47c811ee30d82081710ac225fb06a80d6"
+        },
+        {
+            "date": 1760605200414,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-15-success.log",
+            "hash": "11d985ce17272d1f7220c97a02391c8ed34726e3c241cccf42360a741d79c800"
+        },
+        {
+            "date": 1760608912210,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-16-10-16-success.log",
+            "hash": "599342441fc57e0ac11dc00867d29b1965f6c084c89b7f7dbc838b36a5bf309e"
+        },
+        {
+            "date": 1760762333899,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-18-10-10-success.log",
+            "hash": "686aca463ca913adb5e4bc6891c70c624c0db123d87cadbc19daef788a63c0b4"
+        },
+        {
+            "date": 1760764051923,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-18-10-11-success.log",
+            "hash": "a162fd6a775c553f0d553180fa2d3ef2c0d2afd82d05f75c925c67cb8a1ff846"
+        },
+        {
+            "date": 1760847696285,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-19-10-10-success.log",
+            "hash": "337d92baaf691e498543422c7777368cecedd53cc1257d4594ce31e6d0942be1"
+        },
+        {
+            "date": 1760850169082,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-19-10-11-success.log",
+            "hash": "5e0233abaae4f25e219fc377fdef92ff2c82e5b640728c54b853c30a3ea10e71"
+        },
+        {
+            "date": 1760865008020,
+            "name": "D:\\Projects\\Ali Enterprise\\Ali Enterprise Backend\\logs\\winston\\successes\\phu-2025-19-10-15-success.log",
+            "hash": "516466c20b6087c43debba073476309c1e544e19a77da95ebcf8112c23761631"
+        }
+    ],
+    "hashType": "sha256"
+}

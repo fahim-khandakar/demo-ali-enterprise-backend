@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "orders" ADD COLUMN     "price" DECIMAL(65,30) NOT NULL DEFAULT 0,
+ADD COLUMN     "texPercentage" DECIMAL(65,30) NOT NULL DEFAULT 0;
